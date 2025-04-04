@@ -8,7 +8,6 @@
     --alto-contraste-link: #ffd700;
 }
 
-
 body {
     font-size: 1rem;
     font-family: 'Montserrat';
@@ -65,7 +64,9 @@ section {
     border-radius: 30px;
     border: none;
     width: 14em;
+    /* Convertido para em aumenta o tamanho da fonte por tabela*/
     height: 3em;
+    /* Convertido para em */
     align-content: center;
 
 }
@@ -138,15 +139,18 @@ h2 {
     font-weight: bold;
 }
 
+/* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
 }
+
 .menu-acessibilidade{
     position: fixed;
     top:2rem;
     right:20px;
     z-index: 1000;
 }
+
 .rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center;
@@ -161,6 +165,7 @@ h2 {
 .opcoes-acessibilidade button{
     margin-bottom: 5px;
 }
+
 .apresenta-lista{
     display: none;
 }
@@ -191,10 +196,15 @@ h2 {
 .alto-contraste #tropicalia {
     background: none;
 }
-
 .alto-contraste #galeria {
     background-color: var(--alto-contraste-fundo);
 }
+
 .alto-contraste .fundo-galeria {
     background: none;
 }
+
+
+
+
+
